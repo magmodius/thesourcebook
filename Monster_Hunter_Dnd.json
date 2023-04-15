@@ -13,8 +13,8 @@
 				"convertedBy": []
 			}
 		],
-		"dateAdded": 1681602310,
-		"dateLastModified": 1681602310
+		"dateAdded": 1681602369,
+		"dateLastModified": 1681602369
 	},
 	"monster": [
 		{
@@ -179,7 +179,7 @@
 			"name": "Great Jagras",
 			"source": "Jagra",
 			"size": [
-				"M"
+				"H"
 			],
 			"type": {
 				"type": "beast",
