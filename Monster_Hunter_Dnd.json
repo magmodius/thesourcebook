@@ -13,8 +13,8 @@
 				"convertedBy": []
 			}
 		],
-		"dateAdded": 1681600792,
-		"dateLastModified": 1681600792
+		"dateAdded": 1681600872,
+		"dateLastModified": 1681600872
 	},
 	"monster": [
 		{
@@ -23,7 +23,12 @@
 			"size": [
 				"M"
 			],
-			"type": "beast",
+			"type": {
+				"type": "beast",
+				"tags": [
+					"Fanged Wyvern"
+				]
+			},
 			"alignment": [
 				"N"
 			],
