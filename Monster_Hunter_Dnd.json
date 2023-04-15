@@ -1,0 +1,207 @@
+{
+	"siteVersion": "1.178.0",
+	"_meta": {
+		"sources": [
+			{
+				"json": "Jagra",
+				"abbreviation": "MHDnd",
+				"full": "Monster Hunter Dnd",
+				"url": "https://github.com/magmodius/thesourcebook.git",
+				"authors": [
+					"Backward"
+				],
+				"convertedBy": []
+			}
+		],
+		"dateAdded": 1681600792,
+		"dateLastModified": 1681600792
+	},
+	"monster": [
+		{
+			"name": "Great Jagras",
+			"source": "Jagra",
+			"size": [
+				"M"
+			],
+			"type": "beast",
+			"alignment": [
+				"N"
+			],
+			"ac": [
+				{
+					"ac": 16,
+					"from": [
+						"natural armor"
+					]
+				},
+				{
+					"ac": 15,
+					"condition": "when digesting",
+					"braces": true
+				}
+			],
+			"hp": {
+				"formula": "9d8 + 19",
+				"average": 59
+			},
+			"speed": {
+				"walk": 30,
+				"burrow": 15,
+				"climb": 20
+			},
+			"str": 16,
+			"dex": 7,
+			"con": 19,
+			"int": 4,
+			"wis": 9,
+			"cha": 6,
+			"save": {
+				"str": "+6",
+				"con": "+7"
+			},
+			"passive": 9,
+			"vulnerable": [
+				"fire"
+			],
+			"cr": {
+				"cr": "2",
+				"lair": "3"
+			},
+			"action": [
+				{
+					"name": "Bite",
+					"entries": [
+						"{@atk mw} {@hit 5} to hit, reach 5 ft., one target. {@h}6 ({@damage 1d6 + 3}) piercing damage.",
+						"Upon hitting a creature, make a contested athletics check. If the creature fails, the Great Jagras swallows them, causing them to be {@condition grappled}, and they take a {@damage 1d6} acid damage at the beginning of each turn."
+					]
+				},
+				{
+					"name": "Tail Whip",
+					"entries": [
+						"{@atk mw} Great Jagras whips the area in front or behind him in a 15 ft. cone. {@hit 5} to hit to each creature in the radius, dealing ({@damage 1d6 + 3}) bludgenoning damage to each."
+					]
+				}
+			],
+			"legendaryActions": 2,
+			"legendary": [
+				{
+					"name": "Swallow",
+					"entries": [
+						"When the Great Jagras fails a check, they can choose to succeed instead; however, when they do, they must swallow a medium or lower sized creature next to them, swallowing them and causing them to take a -5 penalty to movement speed and -1 penalty to AC until the creature is disgested."
+					]
+				}
+			],
+			"environment": [
+				"forest"
+			],
+			"fluff": {
+				"entries": [
+					"From the Monster's Diary on the Great Jagras: \"This fucking freak. Good god. If you think its goons are annoying, you havent seen this guy gobble up your entire picnic. It may be large, but its still mortal. A fire weapon will really knock this thing out of the park. Don't let it near an Aptonoth, youre not going to like what you see.\""
+				],
+				"images": [
+					{
+						"type": "image",
+						"href": {
+							"type": "external",
+							"url": "https://cdn.discordapp.com/attachments/672984617485074471/1096928864434933821/great_jagras.png"
+						}
+					}
+				]
+			},
+			"tokenUrl": "https://cdn.discordapp.com/attachments/672984617485074471/1096928863931596872/great_jagras_token.PNG",
+			"damageTags": [
+				"P"
+			],
+			"miscTags": [
+				"MW"
+			]
+		},
+		{
+			"name": "Jagras",
+			"shortName": true,
+			"source": "Jagra",
+			"size": [
+				"M"
+			],
+			"type": {
+				"type": "beast",
+				"tags": [
+					"Fanged Wyvern"
+				]
+			},
+			"alignment": [
+				"N"
+			],
+			"ac": [
+				{
+					"ac": 14,
+					"from": [
+						"natural armor"
+					]
+				}
+			],
+			"hp": {
+				"special": "17"
+			},
+			"speed": {
+				"walk": 30,
+				"climb": 10
+			},
+			"str": 11,
+			"dex": 14,
+			"con": 10,
+			"int": 4,
+			"wis": 11,
+			"cha": 9,
+			"save": {
+				"dex": "+4",
+				"str": "+2"
+			},
+			"passive": 10,
+			"vulnerable": [
+				"fire",
+				"lightning"
+			],
+			"cr": "1/2",
+			"action": [
+				{
+					"name": "Bite",
+					"entries": [
+						"{@atk mw} {@hit 4} to hit, reach 5 ft., one target. {@h}3 ({@damage 1d6}) piercing damage."
+					]
+				},
+				{
+					"name": "Tail Whip",
+					"entries": [
+						"{@atk mw} {@hit 2} to hit, reach 5 ft., two targets. {@h}2 ({@damage 1d4}) bludgeoning damage."
+					]
+				}
+			],
+			"environment": [
+				"forest"
+			],
+			"fluff": {
+				"entries": [
+					"From the Hunter's Diary excerpt on Jagras: \"These stupid fucking lizards are a pain in the ass. jagras or, whatever, really. i was never really one to care for small monsters. always hitting me right when im about to do something important. kill as fast as possible\""
+				],
+				"images": [
+					{
+						"type": "image",
+						"href": {
+							"type": "external",
+							"url": "https://cdn.discordapp.com/attachments/672984617485074471/1096928889974046780/jagras.png"
+						}
+					}
+				]
+			},
+			"tokenUrl": "https://cdn.discordapp.com/attachments/672984617485074471/1096928889370071120/jagras_token.PNG",
+			"damageTags": [
+				"B",
+				"P"
+			],
+			"miscTags": [
+				"MW"
+			]
+		}
+	]
+}
