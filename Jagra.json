@@ -1,0 +1,105 @@
+{
+	"_meta": {
+		"sources": [
+			{
+				"json": "Jagra",
+				"abbreviation": "MHDnd",
+				"full": "Monster Hunter Dnd",
+				"url": "https://github.com/magmodius/thesourcebook.git",
+				"authors": [
+					"Backward"
+				],
+				"convertedBy": []
+			}
+		]
+	},
+	"monster": [
+		{
+			"name": "Jagras",
+			"size": [
+				"M"
+			],
+			"type": {
+				"type": "beast",
+				"tags": [
+					"underling"
+				]
+			},
+			"source": "Jagra",
+			"alignment": [
+				"N"
+			],
+			"ac": [
+				{
+					"ac": 14,
+					"from": [
+						"natural armor"
+					]
+				}
+			],
+			"hp": {
+				"special": "17"
+			},
+			"speed": {
+				"walk": 30,
+				"climb": 10
+			},
+			"str": 11,
+			"dex": 14,
+			"con": 10,
+			"int": 4,
+			"wis": 11,
+			"cha": 9,
+			"passive": 10,
+			"cr": "1/2",
+			"shortName": true,
+			"save": {
+				"dex": "+4",
+				"str": "+2"
+			},
+			"vulnerable": [
+				"fire",
+				"lightning"
+			],
+			"environment": [
+				"forest"
+			],
+			"action": [
+				{
+					"name": "Bite",
+					"entries": [
+						"{@atk mw} {@hit 4} to hit, reach 5 ft., one target. {@h}3 ({@damage 1d6}) piercing damage."
+					]
+				},
+				{
+					"name": "Tail Whip",
+					"entries": [
+						"{@atk mw} {@hit 2} to hit, reach 5 ft., two targets. {@h}2 ({@damage 1d4}) bludgeoning damage."
+					]
+				}
+			],
+			"miscTags": [
+				"MW"
+			],
+			"damageTags": [
+				"B",
+				"P"
+			],
+			"tokenUrl": "https://cdn.discordapp.com/attachments/672984617485074471/1096847307951059085/jagras_token.PNG",
+			"fluff": {
+				"entries": [
+					"From the Hunter's Diary excerpt on Jagras: \"These stupid fucking lizards are a pain in the ass. jagras or, whatever, really. i was never really one to care for small monsters. always hitting me right when im about to do something important. kill as fast as possible\""
+				],
+				"images": [
+					{
+						"type": "image",
+						"href": {
+							"type": "external",
+							"url": "https://cdn.discordapp.com/attachments/672984617485074471/1096847308592795742/jagras.png"
+						}
+					}
+				]
+			}
+		}
+	]
+}
