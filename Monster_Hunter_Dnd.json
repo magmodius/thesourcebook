@@ -13,10 +13,168 @@
 				"convertedBy": []
 			}
 		],
-		"dateAdded": 1681600872,
-		"dateLastModified": 1681600872
+		"dateAdded": 1681602310,
+		"dateLastModified": 1681602310
 	},
 	"monster": [
+		{
+			"name": "Anteka",
+			"source": "Jagra",
+			"size": [
+				"M"
+			],
+			"type": {
+				"type": "beast",
+				"tags": [
+					"Herbivore"
+				]
+			},
+			"alignment": [
+				"N"
+			],
+			"ac": [
+				{
+					"ac": 12,
+					"from": [
+						"natural armor"
+					]
+				}
+			],
+			"hp": {
+				"formula": "2d8",
+				"average": 9
+			},
+			"speed": {
+				"walk": 40
+			},
+			"str": 12,
+			"dex": 15,
+			"con": 12,
+			"int": 4,
+			"wis": 8,
+			"cha": 8,
+			"save": {
+				"dex": "+4"
+			},
+			"passive": 9,
+			"vulnerable": [
+				"acid",
+				"cold",
+				"fire",
+				"lightning"
+			],
+			"cr": "1/4",
+			"action": [
+				{
+					"name": "Hoof Strike",
+					"entries": [
+						"{@atk mw} {@hit 3} to hit, reach 5 ft., one target. {@h}4 ({@damage 1d6 + 1}) damage."
+					]
+				},
+				{
+					"name": "Charge",
+					"entries": [
+						"{@atk mw} {@hit 5} to hit, reach 5 ft., one target. {@h}6 ({@damage 2d4 + 1}) damage.",
+						"Anteka must move 15 feet or more towards its target to use this attack."
+					]
+				}
+			],
+			"environment": [
+				"arctic",
+				"mountain"
+			],
+			"fluff": {
+				"images": [
+					{
+						"type": "image",
+						"href": {
+							"type": "external",
+							"url": "https://cdn.discordapp.com/attachments/672984617485074471/1096939638381359104/Anteka.png"
+						}
+					}
+				]
+			},
+			"tokenUrl": "https://cdn.discordapp.com/attachments/672984617485074471/1096939637865451520/anteka_token.PNG",
+			"miscTags": [
+				"MW"
+			]
+		},
+		{
+			"name": "Apceros",
+			"source": "Jagra",
+			"size": [
+				"L"
+			],
+			"type": {
+				"type": "beast",
+				"tags": [
+					"herbivore"
+				]
+			},
+			"alignment": [
+				"N"
+			],
+			"ac": [
+				{
+					"ac": 19,
+					"from": [
+						"natural armor"
+					]
+				}
+			],
+			"hp": {
+				"formula": "6d8 + 6",
+				"average": 33
+			},
+			"speed": {
+				"walk": 25
+			},
+			"str": 12,
+			"dex": 6,
+			"con": 23,
+			"int": 4,
+			"wis": 12,
+			"cha": 8,
+			"save": {
+				"con": "+9"
+			},
+			"passive": 11,
+			"vulnerable": [
+				"fire",
+				"lightning"
+			],
+			"cr": "1",
+			"action": [
+				{
+					"name": "Tail Strike",
+					"entries": [
+						"{@atk mw} {@hit 4} to hit, reach 10 ft., one target. {@h}6 ({@damage 2d4 + 1}) damage."
+					]
+				},
+				{
+					"name": "Duck",
+					"entries": [
+						"Apceros ducks into its shell, making it immune to nonmagical bludgeoning, piercing, and slashing. It cannot take any actions or move while ducking."
+					]
+				}
+			],
+			"fluff": {
+				"images": [
+					{
+						"type": "image",
+						"href": {
+							"type": "external",
+							"url": "https://cdn.discordapp.com/attachments/672984617485074471/1096943842042855576/apceros.png"
+						}
+					}
+				]
+			},
+			"tokenUrl": "https://cdn.discordapp.com/attachments/672984617485074471/1096943841438863482/Apceros_token.png",
+			"miscTags": [
+				"MW",
+				"RCH"
+			]
+		},
 		{
 			"name": "Great Jagras",
 			"source": "Jagra",
@@ -126,7 +284,7 @@
 			"shortName": true,
 			"source": "Jagra",
 			"size": [
-				"M"
+				"S"
 			],
 			"type": {
 				"type": "beast",
