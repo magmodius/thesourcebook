@@ -13,8 +13,8 @@
 				"convertedBy": []
 			}
 		],
-		"dateAdded": 1681612832,
-		"dateLastModified": 1681612832
+		"dateAdded": 1681613010,
+		"dateLastModified": 1681613010
 	},
 	"monster": [
 		{
@@ -592,6 +592,93 @@
 				]
 			},
 			"tokenUrl": "https://cdn.discordapp.com/attachments/672984617485074471/1096960578532155563/jagras_token.PNG",
+			"damageTags": [
+				"B",
+				"P"
+			],
+			"miscTags": [
+				"MW"
+			]
+		},
+		{
+			"name": "Jagras",
+			"shortName": true,
+			"source": "Jagra",
+			"size": [
+				"M"
+			],
+			"type": {
+				"type": "beast",
+				"tags": [
+					"Fanged Wyvern"
+				]
+			},
+			"alignment": [
+				"N"
+			],
+			"ac": [
+				{
+					"ac": 14,
+					"from": [
+						"natural armor"
+					]
+				}
+			],
+			"hp": {
+				"special": "17"
+			},
+			"speed": {
+				"walk": 30,
+				"climb": 10
+			},
+			"str": 11,
+			"dex": 14,
+			"con": 10,
+			"int": 4,
+			"wis": 11,
+			"cha": 9,
+			"save": {
+				"dex": "+4",
+				"str": "+2"
+			},
+			"passive": 10,
+			"vulnerable": [
+				"fire",
+				"lightning"
+			],
+			"cr": "1/2",
+			"action": [
+				{
+					"name": "Bite",
+					"entries": [
+						"{@atk mw} {@hit 2} to hit, reach 5 ft., one target. {@h}3 ({@damage 1d6}) piercing damage."
+					]
+				},
+				{
+					"name": "Tail Whip",
+					"entries": [
+						"{@atk mw} {@hit 2} to hit, reach 5 ft., two targets. {@h}2 ({@damage 1d4}) bludgeoning damage."
+					]
+				}
+			],
+			"environment": [
+				"forest"
+			],
+			"fluff": {
+				"entries": [
+					"From the Hunter's Diary excerpt on Jagras: \"These stupid fucking lizards are a pain in the ass. jagras or, whatever, really. i was never really one to care for small monsters. always hitting me right when im about to do something important. kill as fast as possible\""
+				],
+				"images": [
+					{
+						"type": "image",
+						"href": {
+							"type": "external",
+							"url": "https://cdn.discordapp.com/attachments/672984617485074471/1096928889974046780/jagras.png"
+						}
+					}
+				]
+			},
+			"tokenUrl": "https://cdn.discordapp.com/attachments/672984617485074471/1096928889370071120/jagras_token.PNG",
 			"damageTags": [
 				"B",
 				"P"
