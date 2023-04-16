@@ -13,8 +13,8 @@
 				"convertedBy": []
 			}
 		],
-		"dateAdded": 1681602369,
-		"dateLastModified": 1681602369
+		"dateAdded": 1681611804,
+		"dateLastModified": 1681611804
 	},
 	"monster": [
 		{
@@ -94,7 +94,7 @@
 					}
 				]
 			},
-			"tokenUrl": "https://cdn.discordapp.com/attachments/672984617485074471/1096939637865451520/anteka_token.PNG",
+			"tokenUrl": "https://cdn.discordapp.com/attachments/672984617485074471/1096960577198366880/anteka_token.PNG",
 			"miscTags": [
 				"MW"
 			]
@@ -169,7 +169,241 @@
 					}
 				]
 			},
-			"tokenUrl": "https://cdn.discordapp.com/attachments/672984617485074471/1096943841438863482/Apceros_token.png",
+			"tokenUrl": "https://cdn.discordapp.com/attachments/672984617485074471/1096960577538117803/Apceros_token.png",
+			"miscTags": [
+				"MW",
+				"RCH"
+			]
+		},
+		{
+			"name": "Aptonoth",
+			"source": "Jagra",
+			"size": [
+				"L"
+			],
+			"type": {
+				"type": "beast",
+				"tags": [
+					"Herbivore"
+				]
+			},
+			"alignment": [
+				"N"
+			],
+			"ac": [
+				{
+					"ac": 12,
+					"from": [
+						"natural armor"
+					]
+				}
+			],
+			"hp": {
+				"formula": "2d8 + 15",
+				"average": 24
+			},
+			"speed": {
+				"walk": 20
+			},
+			"str": 12,
+			"dex": 7,
+			"con": 15,
+			"int": 4,
+			"wis": 8,
+			"cha": 8,
+			"save": {
+				"con": "+4"
+			},
+			"passive": 9,
+			"vulnerable": [
+				"acid",
+				"cold",
+				"fire",
+				"lightning"
+			],
+			"cr": "1/4",
+			"action": [
+				{
+					"name": "Tail Strike",
+					"entries": [
+						"{@atk mw} {@hit 3} to hit, reach 10 ft., one target. {@h}6 ({@damage 1d4 + 1}) damage."
+					]
+				}
+			],
+			"reaction": [
+				{
+					"name": "Flee",
+					"entries": [
+						"Upon taking damage, Aptonoth will groan in pain, alerting nearby Aptonoth to the danger, causing them and the surrounding Aptononth to be feared, dashing away from the source of danger."
+					]
+				}
+			],
+			"environment": [
+				"forest",
+				"grassland",
+				"hill"
+			],
+			"fluff": {
+				"images": [
+					{
+						"type": "image",
+						"href": {
+							"type": "external",
+							"url": "https://cdn.discordapp.com/attachments/672984617485074471/1096960754940395600/aptonoth.png"
+						}
+					}
+				]
+			},
+			"tokenUrl": "https://cdn.discordapp.com/attachments/672984617485074471/1096960578091745300/aptonoth_token.png",
+			"miscTags": [
+				"MW",
+				"RCH"
+			]
+		},
+		{
+			"name": "Gajau",
+			"source": "Jagra",
+			"size": [
+				"M"
+			],
+			"type": {
+				"type": "beast",
+				"tags": [
+					"Fish"
+				]
+			},
+			"alignment": [
+				"N"
+			],
+			"ac": [
+				{
+					"ac": 11,
+					"from": [
+						"natural armor"
+					]
+				}
+			],
+			"hp": {
+				"formula": "1d8 - 1",
+				"average": 3
+			},
+			"speed": {
+				"swim": 30
+			},
+			"str": 8,
+			"dex": 8,
+			"con": 8,
+			"int": 4,
+			"wis": 8,
+			"cha": 8,
+			"passive": 9,
+			"vulnerable": [
+				"fire",
+				"lightning"
+			],
+			"cr": "1/4",
+			"action": [
+				{
+					"name": "Bite",
+					"entries": [
+						"{@atk mw} {@hit 1} to hit, reach 5 ft., one target. {@h}1 ({@damage 1d4 - 1}) damage."
+					]
+				}
+			],
+			"environment": [
+				"underwater"
+			],
+			"fluff": {
+				"images": [
+					{
+						"type": "image",
+						"href": {
+							"type": "external",
+							"url": "https://cdn.discordapp.com/attachments/672984617485074471/1096976585736847440/gajau.png"
+						}
+					}
+				]
+			},
+			"tokenUrl": "https://cdn.discordapp.com/attachments/672984617485074471/1096976585309044786/gajau_token.PNG",
+			"miscTags": [
+				"MW"
+			]
+		},
+		{
+			"name": "Gastodon",
+			"source": "Jagra",
+			"size": [
+				"S"
+			],
+			"type": {
+				"type": "beast",
+				"tags": [
+					"Herbivore"
+				]
+			},
+			"alignment": [
+				"N"
+			],
+			"ac": [
+				{
+					"ac": 13,
+					"from": [
+						"natural armor"
+					]
+				}
+			],
+			"hp": {
+				"formula": "1d8 + 12",
+				"average": 16
+			},
+			"speed": {
+				"walk": 35
+			},
+			"str": 13,
+			"dex": 14,
+			"con": 12,
+			"int": 4,
+			"wis": 12,
+			"cha": 8,
+			"save": {
+				"dex": "+4"
+			},
+			"passive": 11,
+			"vulnerable": [
+				"lightning"
+			],
+			"cr": "1/2",
+			"action": [
+				{
+					"name": "Head Bash",
+					"entries": [
+						"{@atk mw} {@hit 3} to hit, reach 10 ft., one target. {@h}4 ({@damage 1d6 + 1}) damage."
+					]
+				}
+			],
+			"environment": [
+				"arctic",
+				"coastal",
+				"desert",
+				"forest",
+				"hill",
+				"mountain",
+				"swamp",
+				"underdark",
+				"urban"
+			],
+			"fluff": {
+				"images": [
+					{
+						"type": "image",
+						"href": {
+							"type": "external",
+							"url": "https://cdn.discordapp.com/attachments/672984617485074471/1096962821012594729/gastodon.png"
+						}
+					}
+				]
+			},
+			"tokenUrl": "https://cdn.discordapp.com/attachments/672984617485074471/1096962820677046413/gastodon_token.PNG",
 			"miscTags": [
 				"MW",
 				"RCH"
@@ -241,7 +475,7 @@
 				{
 					"name": "Tail Whip",
 					"entries": [
-						"{@atk mw} Great Jagras whips the area in front or behind him in a 15 ft. cone. {@hit 5} to hit to each creature in the radius, dealing ({@damage 1d6 + 3}) bludgenoning damage to each."
+						"{@atk mw} Great Jagras whips the area in front or behind him in a 10 ft. cone. {@hit 5} to hit to each creature in the radius, dealing ({@damage 1d6 + 3}) bludgenoning damage to each."
 					]
 				}
 			],
@@ -357,7 +591,7 @@
 					}
 				]
 			},
-			"tokenUrl": "https://cdn.discordapp.com/attachments/672984617485074471/1096928889370071120/jagras_token.PNG",
+			"tokenUrl": "https://cdn.discordapp.com/attachments/672984617485074471/1096960578532155563/jagras_token.PNG",
 			"damageTags": [
 				"B",
 				"P"
@@ -365,6 +599,514 @@
 			"miscTags": [
 				"MW"
 			]
+		},
+		{
+			"name": "Kelbi",
+			"source": "Jagra",
+			"size": [
+				"M"
+			],
+			"type": {
+				"type": "beast",
+				"tags": [
+					"Herbivore"
+				]
+			},
+			"alignment": [
+				"N"
+			],
+			"ac": [
+				{
+					"ac": 14,
+					"from": [
+						"natural armor"
+					]
+				}
+			],
+			"hp": {
+				"formula": "1d8 + 8",
+				"average": 12
+			},
+			"speed": {
+				"walk": 45
+			},
+			"str": 10,
+			"dex": 16,
+			"con": 12,
+			"int": 4,
+			"wis": 8,
+			"cha": 8,
+			"passive": 9,
+			"vulnerable": [
+				"acid",
+				"cold",
+				"fire",
+				"lightning"
+			],
+			"cr": "1/8",
+			"action": [
+				{
+					"name": "Hoof Strike",
+					"entries": [
+						"{@atk mw} {@hit 2} to hit, reach 5 ft., one target. {@h}2 ({@damage 1d4}) damage."
+					]
+				}
+			],
+			"reaction": [
+				{
+					"name": "Aggressive Stillness",
+					"entries": [
+						"Any creatures that stand still while being noticed by a Kelbi for more than one minute will be attacked by the Kelbi."
+					]
+				}
+			],
+			"environment": [
+				"arctic",
+				"coastal",
+				"desert",
+				"forest",
+				"grassland",
+				"hill",
+				"mountain",
+				"swamp",
+				"underdark",
+				"underwater"
+			],
+			"fluff": {
+				"images": [
+					{
+						"type": "image",
+						"href": {
+							"type": "external",
+							"url": "https://cdn.discordapp.com/attachments/672984617485074471/1096965146464759828/kelbi.png"
+						}
+					}
+				]
+			},
+			"tokenUrl": "https://cdn.discordapp.com/attachments/672984617485074471/1096965146078892143/kelbi_token.png",
+			"miscTags": [
+				"MW"
+			]
+		},
+		{
+			"name": "Kestodon (Female)",
+			"shortName": "Kestodon",
+			"source": "Jagra",
+			"size": [
+				"S"
+			],
+			"type": {
+				"type": "beast",
+				"tags": [
+					"Herbivore"
+				]
+			},
+			"alignment": [
+				"N"
+			],
+			"ac": [
+				{
+					"ac": 13,
+					"from": [
+						"natural armor"
+					]
+				}
+			],
+			"hp": {
+				"formula": "2d8 + 5",
+				"average": 14
+			},
+			"speed": {
+				"walk": 35
+			},
+			"str": 12,
+			"dex": 10,
+			"con": 15,
+			"int": 4,
+			"wis": 8,
+			"cha": 8,
+			"passive": 9,
+			"vulnerable": [
+				"acid",
+				"cold"
+			],
+			"cr": "1/2",
+			"action": [
+				{
+					"name": "Head Bash",
+					"entries": [
+						"{@atk mw} {@hit 3} to hit, reach 5 ft., one target. {@h}4 ({@damage 1d6 + 1}) damage."
+					]
+				},
+				{
+					"name": "Charge",
+					"entries": [
+						"{@atk mw} {@hit 3} to hit, reach 5 ft., one target. {@h}6 ({@damage 2d4 + 1}) damage.",
+						"Kesotdon must move in a straight line 15 feet or longer before being able to use this attack."
+					]
+				}
+			],
+			"environment": [
+				"forest"
+			],
+			"fluff": {
+				"images": [
+					{
+						"type": "image",
+						"href": {
+							"type": "external",
+							"url": "https://cdn.discordapp.com/attachments/672984617485074471/1096967950591873125/kestodon.png"
+						}
+					}
+				]
+			},
+			"tokenUrl": "https://cdn.discordapp.com/attachments/672984617485074471/1096968636977131650/female_kestodon.png",
+			"miscTags": [
+				"MW"
+			]
+		},
+		{
+			"name": "Kestodon (Male)",
+			"shortName": "Kestodon",
+			"source": "Jagra",
+			"size": [
+				"M"
+			],
+			"type": {
+				"type": "beast",
+				"tags": [
+					"Herbivore"
+				]
+			},
+			"alignment": [
+				"N"
+			],
+			"ac": [
+				{
+					"ac": 16,
+					"from": [
+						"natural armor"
+					]
+				}
+			],
+			"hp": {
+				"formula": "4d8 + 18",
+				"average": 36
+			},
+			"speed": {
+				"walk": 35
+			},
+			"str": 16,
+			"dex": 14,
+			"con": 18,
+			"int": 4,
+			"wis": 8,
+			"cha": 8,
+			"save": {
+				"con": "+7",
+				"str": "+6",
+				"dex": "+5"
+			},
+			"passive": 9,
+			"vulnerable": [
+				"acid",
+				"cold"
+			],
+			"cr": "1",
+			"action": [
+				{
+					"name": "Head Bash",
+					"entries": [
+						"{@atk mw} {@hit 3} to hit, reach 5 ft., one target. {@h}4 ({@damage 1d6 + 1}) damage."
+					]
+				},
+				{
+					"name": "Charge",
+					"entries": [
+						"{@atk mw} {@hit 3} to hit, reach 5 ft., one target. {@h}6 ({@damage 2d4 + 1}) damage.",
+						"Kesotdon must move in a straight line 15 feet or longer before being able to use this attack."
+					]
+				}
+			],
+			"environment": [
+				"forest",
+				"grassland",
+				"hill"
+			],
+			"fluff": {
+				"images": [
+					{
+						"type": "image",
+						"href": {
+							"type": "external",
+							"url": "https://cdn.discordapp.com/attachments/672984617485074471/1096967950591873125/kestodon.png"
+						}
+					}
+				]
+			},
+			"tokenUrl": "https://cdn.discordapp.com/attachments/672984617485074471/1096969922774577242/male_kestodon.png",
+			"miscTags": [
+				"MW"
+			]
+		},
+		{
+			"name": "Kulu-Ya-Ku",
+			"isNamedCreature": true,
+			"source": "Jagra",
+			"size": [
+				"H"
+			],
+			"type": {
+				"type": "beast",
+				"tags": [
+					"Bird Wyvern"
+				]
+			},
+			"alignment": [
+				"N"
+			],
+			"ac": [
+				{
+					"ac": 16,
+					"from": [
+						"natural armor"
+					]
+				}
+			],
+			"hp": {
+				"formula": "14d8 + 17",
+				"average": 80
+			},
+			"speed": {
+				"walk": 45
+			},
+			"str": 16,
+			"dex": 14,
+			"con": 17,
+			"int": 4,
+			"wis": 8,
+			"cha": 8,
+			"save": {
+				"con": "+7",
+				"str": "+7",
+				"dex": "+6"
+			},
+			"skill": {
+				"perception": "+3"
+			},
+			"passive": 13,
+			"vulnerable": [
+				"acid"
+			],
+			"cr": "4",
+			"actionHeader": [
+				"Kulu-Ya-Ku has multiattack. They can do two peck attacks, or a peck attack and a rock attack."
+			],
+			"action": [
+				{
+					"name": "Peck",
+					"entries": [
+						"{@atk mw} {@hit 7} to hit, reach 5 ft., one target. {@h}6 ({@damage 1d6 + 3}) damage."
+					]
+				},
+				{
+					"name": "Rock Bash",
+					"entries": [
+						"{@atk mw} {@hit 7} to hit, reach 5 ft., one target. {@h}10 ({@damage 2d6 + 3}) damage."
+					]
+				},
+				{
+					"name": "Rock Slam",
+					"entries": [
+						"{@atk mw} {@hit 7} to hit, reach 5 ft., one target. {@h}10 ({@damage 2d6 + 3}) damage.",
+						"When Kulu-Ya-Ku hits a player with this attack, the entity hit by the attack must make a {@dc 15} constitution save. If they fail, they are {@condition stunned} for their next turn. "
+					]
+				}
+			],
+			"bonus": [
+				{
+					"name": "Scout",
+					"entries": [
+						"Kulu-Ya-Ku searches for a rock if they lost it, doing a {@dc 13} perception check so long as they are in a region where such is applicable."
+					]
+				}
+			],
+			"legendaryHeader": [
+				"The Kulu-Ya-Ku can use their legendary action, so long as they have a rock in hand."
+			],
+			"legendary": [
+				{
+					"name": "Legendary Resistance",
+					"entries": [
+						"Kulu-Ya-Ku uses its rock to succeed on a saving throw. If the saving throw is physical, it physically manipulates the rock in a way that allows it to succeed, and if the saving throw is mental, it bashes the rock against its head, causing it snap out of any trance or magical restrictions."
+					]
+				}
+			],
+			"miscTags": [
+				"MW"
+			]
+		},
+		{
+			"name": "Mosswine",
+			"source": "Jagra",
+			"size": [
+				"M"
+			],
+			"type": {
+				"type": "beast",
+				"tags": [
+					"Herbivore"
+				]
+			},
+			"alignment": [
+				"N"
+			],
+			"ac": [
+				{
+					"ac": 14,
+					"from": [
+						"natural armor"
+					]
+				}
+			],
+			"hp": {
+				"formula": "3d8 + 17",
+				"average": 30
+			},
+			"speed": {
+				"walk": 25,
+				"burrow": 15
+			},
+			"str": 10,
+			"dex": 7,
+			"con": 17,
+			"int": 4,
+			"wis": 8,
+			"cha": 8,
+			"save": {
+				"con": "+6"
+			},
+			"skill": {
+				"perception": "+5"
+			},
+			"passive": 15,
+			"vulnerable": [
+				"acid",
+				"cold",
+				"fire",
+				"lightning"
+			],
+			"cr": "1",
+			"action": [
+				{
+					"name": "Snuffle",
+					"entries": [
+						"Mosswine uses his Big Nose to sniff for mushrooms, using his perception to roll for it."
+					]
+				},
+				{
+					"name": "Head Bash",
+					"entries": [
+						"{@atk mw} {@hit 3} to hit, reach 5 ft., one target. {@h}5 ({@damage 2d4}) damage."
+					]
+				}
+			],
+			"environment": [
+				"arctic",
+				"coastal",
+				"desert",
+				"forest",
+				"grassland",
+				"hill",
+				"mountain",
+				"swamp",
+				"underdark",
+				"underwater",
+				"urban"
+			],
+			"fluff": {
+				"images": [
+					{
+						"type": "image",
+						"href": {
+							"type": "external",
+							"url": "https://cdn.discordapp.com/attachments/672984617485074471/1096974549897187428/mosswine.png"
+						}
+					}
+				]
+			},
+			"tokenUrl": "https://cdn.discordapp.com/attachments/672984617485074471/1096974549574242395/mosswine_token.png",
+			"miscTags": [
+				"MW"
+			]
+		},
+		{
+			"name": "Popo",
+			"source": "Jagra",
+			"size": [
+				"S"
+			],
+			"type": {
+				"type": "beast",
+				"tags": [
+					"Herbivore"
+				]
+			},
+			"alignment": [
+				"N"
+			],
+			"ac": [
+				{
+					"ac": 12,
+					"from": [
+						"natural armor"
+					]
+				}
+			],
+			"hp": {
+				"formula": "1d8 + 12",
+				"average": 16
+			},
+			"speed": {
+				"walk": 20
+			},
+			"str": 9,
+			"dex": 7,
+			"con": 12,
+			"int": 4,
+			"wis": 8,
+			"cha": 8,
+			"save": {
+				"con": "+4"
+			},
+			"passive": 9,
+			"vulnerable": [
+				"fire"
+			],
+			"cr": "1/4",
+			"reaction": [
+				{
+					"name": "Flee",
+					"entries": [
+						"Upon taking damage, the Popo will groan in pain, alerting nearby Popo to the danger, causing them and the surrounding Popo to be feared, dashing away from the source of danger."
+					]
+				}
+			],
+			"environment": [
+				"arctic"
+			],
+			"fluff": {
+				"images": [
+					{
+						"type": "image",
+						"href": {
+							"type": "external",
+							"url": "https://cdn.discordapp.com/attachments/672984617485074471/1096974550488600586/popo.png"
+						}
+					}
+				]
+			},
+			"tokenUrl": "https://cdn.discordapp.com/attachments/672984617485074471/1096974550194978916/popo_token.PNG"
 		}
 	]
 }
