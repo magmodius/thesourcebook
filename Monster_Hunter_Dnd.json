@@ -13,8 +13,8 @@
 				"convertedBy": []
 			}
 		],
-		"dateAdded": 1681616406,
-		"dateLastModified": 1681616406
+		"dateAdded": 1681679326,
+		"dateLastModified": 1681679326
 	},
 	"monster": [
 		{
@@ -958,7 +958,7 @@
 			],
 			"cr": "4",
 			"actionHeader": [
-				"Kulu-Ya-Ku has multiattack. They can do two peck attacks, or a peck attack and a rock attack."
+				"Kulu-Ya-Ku has multiattack. They can do two Pecks, or a Peck and a Rock Bash."
 			],
 			"action": [
 				{
@@ -996,7 +996,7 @@
 				{
 					"name": "Legendary Resistance",
 					"entries": [
-						"Kulu-Ya-Ku uses its rock to succeed on a saving throw. If the saving throw is physical, it physically manipulates the rock in a way that allows it to succeed, and if the saving throw is mental, it bashes the rock against its head, causing it snap out of any trance or magical restrictions."
+						"Kulu-Ya-Ku uses its rock to succeed on a saving throw. If the saving throw is physical, it physically manipulates the rock in a way that allows it to succeed, and if the saving throw is mental, it bashes the rock against its head, causing it snap out of any trance or magical restrictions. Doing so causes the rock to break, and they must Scout for a new one."
 					]
 				}
 			],
