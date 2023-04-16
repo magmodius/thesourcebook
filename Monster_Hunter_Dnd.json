@@ -13,8 +13,8 @@
 				"convertedBy": []
 			}
 		],
-		"dateAdded": 1681613010,
-		"dateLastModified": 1681613010
+		"dateAdded": 1681616258,
+		"dateLastModified": 1681616258
 	},
 	"monster": [
 		{
@@ -50,11 +50,16 @@
 			"str": 12,
 			"dex": 15,
 			"con": 12,
-			"int": 4,
+			"int": 3,
 			"wis": 8,
 			"cha": 8,
 			"save": {
-				"dex": "+4"
+				"dex": "+4",
+				"int": "-2",
+				"str": "+1",
+				"con": "+1",
+				"wis": "-1",
+				"cha": "-1"
 			},
 			"passive": 9,
 			"vulnerable": [
@@ -132,11 +137,16 @@
 			"str": 12,
 			"dex": 6,
 			"con": 23,
-			"int": 4,
+			"int": 3,
 			"wis": 12,
 			"cha": 8,
 			"save": {
-				"con": "+9"
+				"con": "+9",
+				"int": "-2",
+				"dex": "-2",
+				"str": "+1",
+				"wis": "+1",
+				"cha": "-1"
 			},
 			"passive": 11,
 			"vulnerable": [
@@ -208,11 +218,16 @@
 			"str": 12,
 			"dex": 7,
 			"con": 15,
-			"int": 4,
+			"int": 3,
 			"wis": 8,
 			"cha": 8,
 			"save": {
-				"con": "+4"
+				"con": "+4",
+				"int": "-2",
+				"str": "+1",
+				"dex": "-2",
+				"wis": "-1",
+				"cha": "-1"
 			},
 			"passive": 9,
 			"vulnerable": [
@@ -293,9 +308,17 @@
 			"str": 8,
 			"dex": 8,
 			"con": 8,
-			"int": 4,
+			"int": 3,
 			"wis": 8,
 			"cha": 8,
+			"save": {
+				"int": "-2",
+				"con": "-1",
+				"dex": "-1",
+				"str": "-1",
+				"wis": "-1",
+				"cha": "-1"
+			},
 			"passive": 9,
 			"vulnerable": [
 				"fire",
@@ -362,11 +385,16 @@
 			"str": 13,
 			"dex": 14,
 			"con": 12,
-			"int": 4,
+			"int": 3,
 			"wis": 12,
 			"cha": 8,
 			"save": {
-				"dex": "+4"
+				"dex": "+4",
+				"int": "-2",
+				"con": "+1",
+				"wis": "+1",
+				"cha": "-1",
+				"str": "+1"
 			},
 			"passive": 11,
 			"vulnerable": [
@@ -449,12 +477,16 @@
 			"str": 16,
 			"dex": 7,
 			"con": 19,
-			"int": 4,
+			"int": 3,
 			"wis": 9,
 			"cha": 6,
 			"save": {
 				"str": "+6",
-				"con": "+7"
+				"con": "+7",
+				"int": "-2",
+				"wis": "-1",
+				"cha": "-2",
+				"dex": "-2"
 			},
 			"passive": 9,
 			"vulnerable": [
@@ -547,12 +579,16 @@
 			"str": 11,
 			"dex": 14,
 			"con": 10,
-			"int": 4,
+			"int": 3,
 			"wis": 11,
 			"cha": 9,
 			"save": {
 				"dex": "+4",
-				"str": "+2"
+				"str": "+2",
+				"con": "+0",
+				"int": "-2",
+				"wis": "+1",
+				"cha": "-1"
 			},
 			"passive": 10,
 			"vulnerable": [
@@ -601,180 +637,6 @@
 			]
 		},
 		{
-			"name": "Jagras",
-			"shortName": true,
-			"source": "Jagra",
-			"size": [
-				"M"
-			],
-			"type": {
-				"type": "beast",
-				"tags": [
-					"Fanged Wyvern"
-				]
-			},
-			"alignment": [
-				"N"
-			],
-			"ac": [
-				{
-					"ac": 14,
-					"from": [
-						"natural armor"
-					]
-				}
-			],
-			"hp": {
-				"special": "17"
-			},
-			"speed": {
-				"walk": 30,
-				"climb": 10
-			},
-			"str": 11,
-			"dex": 14,
-			"con": 10,
-			"int": 4,
-			"wis": 11,
-			"cha": 9,
-			"save": {
-				"dex": "+4",
-				"str": "+2"
-			},
-			"passive": 10,
-			"vulnerable": [
-				"fire",
-				"lightning"
-			],
-			"cr": "1/2",
-			"action": [
-				{
-					"name": "Bite",
-					"entries": [
-						"{@atk mw} {@hit 2} to hit, reach 5 ft., one target. {@h}3 ({@damage 1d6}) piercing damage."
-					]
-				},
-				{
-					"name": "Tail Whip",
-					"entries": [
-						"{@atk mw} {@hit 2} to hit, reach 5 ft., two targets. {@h}2 ({@damage 1d4}) bludgeoning damage."
-					]
-				}
-			],
-			"environment": [
-				"forest"
-			],
-			"fluff": {
-				"entries": [
-					"From the Hunter's Diary excerpt on Jagras: \"These stupid fucking lizards are a pain in the ass. jagras or, whatever, really. i was never really one to care for small monsters. always hitting me right when im about to do something important. kill as fast as possible\""
-				],
-				"images": [
-					{
-						"type": "image",
-						"href": {
-							"type": "external",
-							"url": "https://cdn.discordapp.com/attachments/672984617485074471/1096928889974046780/jagras.png"
-						}
-					}
-				]
-			},
-			"tokenUrl": "https://cdn.discordapp.com/attachments/672984617485074471/1096928889370071120/jagras_token.PNG",
-			"damageTags": [
-				"B",
-				"P"
-			],
-			"miscTags": [
-				"MW"
-			]
-		},
-		{
-			"name": "Jagras",
-			"shortName": true,
-			"source": "Jagra",
-			"size": [
-				"M"
-			],
-			"type": {
-				"type": "beast",
-				"tags": [
-					"Fanged Wyvern"
-				]
-			},
-			"alignment": [
-				"N"
-			],
-			"ac": [
-				{
-					"ac": 14,
-					"from": [
-						"natural armor"
-					]
-				}
-			],
-			"hp": {
-				"special": "17"
-			},
-			"speed": {
-				"walk": 30,
-				"climb": 10
-			},
-			"str": 11,
-			"dex": 14,
-			"con": 10,
-			"int": 4,
-			"wis": 11,
-			"cha": 9,
-			"save": {
-				"dex": "+4",
-				"str": "+2"
-			},
-			"passive": 10,
-			"vulnerable": [
-				"fire",
-				"lightning"
-			],
-			"cr": "1/2",
-			"action": [
-				{
-					"name": "Bite",
-					"entries": [
-						"{@atk mw} {@hit 2} to hit, reach 5 ft., one target. {@h}3 ({@damage 1d6}) piercing damage."
-					]
-				},
-				{
-					"name": "Tail Whip",
-					"entries": [
-						"{@atk mw} {@hit 2} to hit, reach 5 ft., two targets. {@h}2 ({@damage 1d4}) bludgeoning damage."
-					]
-				}
-			],
-			"environment": [
-				"forest"
-			],
-			"fluff": {
-				"entries": [
-					"From the Hunter's Diary excerpt on Jagras: \"These stupid fucking lizards are a pain in the ass. jagras or, whatever, really. i was never really one to care for small monsters. always hitting me right when im about to do something important. kill as fast as possible\""
-				],
-				"images": [
-					{
-						"type": "image",
-						"href": {
-							"type": "external",
-							"url": "https://cdn.discordapp.com/attachments/672984617485074471/1096928889974046780/jagras.png"
-						}
-					}
-				]
-			},
-			"tokenUrl": "https://cdn.discordapp.com/attachments/672984617485074471/1096928889370071120/jagras_token.PNG",
-			"damageTags": [
-				"B",
-				"P"
-			],
-			"miscTags": [
-				"MW"
-			]
-		},
-		{
 			"name": "Kelbi",
 			"source": "Jagra",
 			"size": [
@@ -807,9 +669,17 @@
 			"str": 10,
 			"dex": 16,
 			"con": 12,
-			"int": 4,
+			"int": 3,
 			"wis": 8,
 			"cha": 8,
+			"save": {
+				"str": "+1",
+				"dex": "+3",
+				"con": "+1",
+				"int": "-2",
+				"wis": "-1",
+				"cha": "-1"
+			},
 			"passive": 9,
 			"vulnerable": [
 				"acid",
@@ -896,9 +766,17 @@
 			"str": 12,
 			"dex": 10,
 			"con": 15,
-			"int": 4,
+			"int": 3,
 			"wis": 8,
 			"cha": 8,
+			"save": {
+				"str": "+1",
+				"dex": "+0",
+				"con": "+2",
+				"int": "-2",
+				"wis": "-1",
+				"cha": "-1"
+			},
 			"passive": 9,
 			"vulnerable": [
 				"acid",
@@ -973,13 +851,16 @@
 			"str": 16,
 			"dex": 14,
 			"con": 18,
-			"int": 4,
+			"int": 3,
 			"wis": 8,
 			"cha": 8,
 			"save": {
 				"con": "+7",
 				"str": "+6",
-				"dex": "+5"
+				"dex": "+5",
+				"int": "-2",
+				"wis": "-1",
+				"cha": "-1"
 			},
 			"passive": 9,
 			"vulnerable": [
@@ -1057,13 +938,16 @@
 			"str": 16,
 			"dex": 14,
 			"con": 17,
-			"int": 4,
+			"int": 3,
 			"wis": 8,
 			"cha": 8,
 			"save": {
 				"con": "+7",
 				"str": "+7",
-				"dex": "+6"
+				"dex": "+6",
+				"int": "-2",
+				"wis": "-1",
+				"cha": "-1"
 			},
 			"skill": {
 				"perception": "+3"
@@ -1166,11 +1050,16 @@
 			"str": 10,
 			"dex": 7,
 			"con": 17,
-			"int": 4,
+			"int": 3,
 			"wis": 8,
 			"cha": 8,
 			"save": {
-				"con": "+6"
+				"con": "+6",
+				"dex": "-2",
+				"str": "+0",
+				"int": "-2",
+				"wis": "-1",
+				"cha": "-1"
 			},
 			"skill": {
 				"perception": "+5"
@@ -1259,11 +1148,16 @@
 			"str": 9,
 			"dex": 7,
 			"con": 12,
-			"int": 4,
+			"int": 3,
 			"wis": 8,
 			"cha": 8,
 			"save": {
-				"con": "+4"
+				"con": "+1",
+				"str": "-1",
+				"dex": "-2",
+				"int": "-2",
+				"wis": "-1",
+				"cha": "-1"
 			},
 			"passive": 9,
 			"vulnerable": [
