@@ -13,8 +13,8 @@
 				"convertedBy": []
 			}
 		],
-		"dateAdded": 1681616258,
-		"dateLastModified": 1681616258
+		"dateAdded": 1681616406,
+		"dateLastModified": 1681616406
 	},
 	"monster": [
 		{
@@ -600,7 +600,7 @@
 				{
 					"name": "Bite",
 					"entries": [
-						"{@atk mw} {@hit 4} to hit, reach 5 ft., one target. {@h}3 ({@damage 1d6}) piercing damage."
+						"{@atk mw} {@hit 2} to hit, reach 5 ft., one target. {@h}3 ({@damage 1d6}) piercing damage."
 					]
 				},
 				{
@@ -938,14 +938,14 @@
 			"str": 16,
 			"dex": 14,
 			"con": 17,
-			"int": 3,
+			"int": 7,
 			"wis": 8,
 			"cha": 8,
 			"save": {
 				"con": "+7",
 				"str": "+7",
 				"dex": "+6",
-				"int": "-2",
+				"int": "+0",
 				"wis": "-1",
 				"cha": "-1"
 			},
