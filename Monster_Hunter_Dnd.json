@@ -13,8 +13,8 @@
 				"convertedBy": []
 			}
 		],
-		"dateAdded": 1681611804,
-		"dateLastModified": 1681611804
+		"dateAdded": 1681612484,
+		"dateLastModified": 1681612484
 	},
 	"monster": [
 		{
@@ -942,6 +942,18 @@
 					]
 				}
 			],
+			"fluff": {
+				"images": [
+					{
+						"type": "image",
+						"href": {
+							"type": "external",
+							"url": "https://cdn.discordapp.com/attachments/672984617485074471/1096986963808092250/kulu_ya_ku.png"
+						}
+					}
+				]
+			},
+			"tokenUrl": "https://cdn.discordapp.com/attachments/672984617485074471/1096986962906329118/kulu_ya_ku_token.png",
 			"miscTags": [
 				"MW"
 			]
