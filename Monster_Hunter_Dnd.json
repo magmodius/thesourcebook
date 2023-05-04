@@ -1,5 +1,5 @@
 {
-	"siteVersion": "1.178.0",
+	"siteVersion": "1.179.2",
 	"_meta": {
 		"sources": [
 			{
@@ -13,8 +13,8 @@
 				"convertedBy": []
 			}
 		],
-		"dateAdded": 1681679326,
-		"dateLastModified": 1681679326
+		"dateAdded": 1683166434,
+		"dateLastModified": 1683166434
 	},
 	"monster": [
 		{
@@ -1119,7 +1119,7 @@
 			"name": "Popo",
 			"source": "Jagra",
 			"size": [
-				"S"
+				"H"
 			],
 			"type": {
 				"type": "beast",
@@ -1132,43 +1132,61 @@
 			],
 			"ac": [
 				{
-					"ac": 12,
+					"ac": 14,
 					"from": [
 						"natural armor"
 					]
 				}
 			],
 			"hp": {
-				"formula": "1d8 + 12",
-				"average": 16
+				"formula": "4d8 + 16",
+				"average": 34
 			},
 			"speed": {
-				"walk": 20
+				"walk": 25
 			},
-			"str": 9,
+			"str": 17,
 			"dex": 7,
-			"con": 12,
+			"con": 19,
 			"int": 3,
 			"wis": 8,
 			"cha": 8,
 			"save": {
-				"con": "+1",
-				"str": "-1",
+				"con": "+4",
 				"dex": "-2",
 				"int": "-2",
 				"wis": "-1",
-				"cha": "-1"
+				"cha": "-1",
+				"str": "+3"
 			},
 			"passive": 9,
+			"resist": [
+				"cold"
+			],
 			"vulnerable": [
 				"fire"
 			],
-			"cr": "1/4",
+			"cr": "2",
+			"action": [
+				{
+					"name": "Tusk",
+					"entries": [
+						"{@atk mw} {@hit 5} to hit, reach 5 ft., one target. {@h}10 ({@damage 2d6 + 3}) damage."
+					]
+				},
+				{
+					"name": "Charge",
+					"entries": [
+						"The Popo charges at a target, charging towards it and maiming it with both its tusks and hooves. The Popo must use its full movement to use this attack.",
+						"{@atk mw} {@hit 5} to hit, reach 5 ft., one target. {@h}10 ({@damage 2d6 + 3}) piercing damage, plus 3 ({@damage 1d6}) bludgeoning damage."
+					]
+				}
+			],
 			"reaction": [
 				{
-					"name": "Flee",
+					"name": "Call",
 					"entries": [
-						"Upon taking damage, the Popo will groan in pain, alerting nearby Popo to the danger, causing them and the surrounding Popo to be feared, dashing away from the source of danger."
+						"Upon taking damage, the Popo will cry out in pain, alerting other Popo to its presence and rallying them to fight alongside it. This restores any feared condition the other Popo had at the time."
 					]
 				}
 			],
@@ -1186,7 +1204,14 @@
 					}
 				]
 			},
-			"tokenUrl": "https://cdn.discordapp.com/attachments/672984617485074471/1096974550194978916/popo_token.PNG"
+			"tokenUrl": "https://cdn.discordapp.com/attachments/672984617485074471/1096974550194978916/popo_token.PNG",
+			"damageTags": [
+				"B",
+				"P"
+			],
+			"miscTags": [
+				"MW"
+			]
 		}
 	]
 }
