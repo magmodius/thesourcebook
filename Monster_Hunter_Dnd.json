@@ -13,8 +13,8 @@
 				"convertedBy": []
 			}
 		],
-		"dateAdded": 1683166513,
-		"dateLastModified": 1683166513
+		"dateAdded": 1683169979,
+		"dateLastModified": 1683169979
 	},
 	"monster": [
 		{
@@ -273,6 +273,97 @@
 			"miscTags": [
 				"MW",
 				"RCH"
+			]
+		},
+		{
+			"name": "Barnos",
+			"source": "Jagra",
+			"size": [
+				"M"
+			],
+			"type": {
+				"type": "beast",
+				"tags": [
+					"Wingdrake"
+				]
+			},
+			"alignment": [
+				"C",
+				"E"
+			],
+			"ac": [
+				{
+					"ac": 13,
+					"from": [
+						"natural armor"
+					]
+				}
+			],
+			"hp": {
+				"formula": "2d8 + 4",
+				"average": 13
+			},
+			"speed": {
+				"walk": 10,
+				"fly": 40
+			},
+			"str": 9,
+			"dex": 16,
+			"con": 10,
+			"int": 3,
+			"wis": 10,
+			"cha": 8,
+			"passive": 10,
+			"vulnerable": [
+				{
+					"special": "Dragon"
+				}
+			],
+			"cr": "1/4",
+			"spellcasting": [
+				{
+					"name": "Spellcasting",
+					"spells": {
+						"0": {
+							"spells": [
+								"{@spell acid splash}"
+							]
+						}
+					},
+					"type": "spellcasting"
+				}
+			],
+			"trait": [
+				{
+					"name": "Acid Spit",
+					"entries": [
+						"The Barnos can cast acid splash at will. It only counts as a first level spellcaster. If a Barnos' acid splash hits, the target's armor is broken, causing them to take a -2 penalty to AC (or +2 to being attacked) until they spend a non combat activity to fix it."
+					]
+				}
+			],
+			"actionHeader": [
+				"Spellcasting"
+			],
+			"environment": [
+				"great ravine, everstream, elder's recess, guiding lands"
+			],
+			"fluff": {
+				"images": [
+					{
+						"type": "image",
+						"href": {
+							"type": "external",
+							"url": "https://cdn.discordapp.com/attachments/672984617485074471/1103516515719979099/barnos.png"
+						}
+					}
+				]
+			},
+			"tokenUrl": "https://cdn.discordapp.com/attachments/672984617485074471/1103516515229241344/barnos_token.png",
+			"damageTagsSpell": [
+				"A"
+			],
+			"spellcastingTags": [
+				"O"
 			]
 		},
 		{
