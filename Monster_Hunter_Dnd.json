@@ -13,8 +13,8 @@
 				"convertedBy": []
 			}
 		],
-		"dateAdded": 1683166434,
-		"dateLastModified": 1683166434
+		"dateAdded": 1683166513,
+		"dateLastModified": 1683166513
 	},
 	"monster": [
 		{
@@ -1140,7 +1140,7 @@
 			],
 			"hp": {
 				"formula": "4d8 + 16",
-				"average": 34
+				"average": 56
 			},
 			"speed": {
 				"walk": 25
