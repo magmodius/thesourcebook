@@ -13,8 +13,8 @@
 				"convertedBy": []
 			}
 		],
-		"dateAdded": 1683169979,
-		"dateLastModified": 1683169979
+		"dateAdded": 1683175924,
+		"dateLastModified": 1683175924
 	},
 	"monster": [
 		{
@@ -85,8 +85,7 @@
 				}
 			],
 			"environment": [
-				"arctic",
-				"mountain"
+				"snowy mountains, tundra, arctic ridge, hoarfrost reach, guiding lands, frost islands, yilufa snowy mountains, glacial valley"
 			],
 			"fluff": {
 				"images": [
@@ -167,6 +166,9 @@
 						"Apceros ducks into its shell, making it immune to nonmagical bludgeoning, piercing, and slashing. It cannot take any actions or move while ducking."
 					]
 				}
+			],
+			"environment": [
+				"old desert, old volcano, desert, volcano, dunes, wildspire waste, guiding lands, gorge, white lake, thunderous sands, moonlands, ghost rune volcanoes, monsonne plains, trese desert, alcala"
 			],
 			"fluff": {
 				"images": [
@@ -254,9 +256,7 @@
 				}
 			],
 			"environment": [
-				"forest",
-				"grassland",
-				"hill"
+				"forest and hills, old jungle, old swamp, snowy mountains, jungle, swamp, great forest, tower, deserted island, sandy plains, flooded forest, volcano (3rd), ancestral steppe, sunken hollow, everwood, verdant hills, marshlands, ruined pinnacle, ancient forest, guiding lands, hermit forest, esther lake, ancestral tomb, pondry hills, perennial pass, hakolo island"
 			],
 			"fluff": {
 				"images": [
@@ -425,7 +425,7 @@
 				}
 			],
 			"environment": [
-				"underwater"
+				"flooded forest, ancient forest, wildspire waste, shrine ruins, flooded forest (rise), frost islands, lava caverns"
 			],
 			"fluff": {
 				"images": [
@@ -491,7 +491,7 @@
 			"vulnerable": [
 				"lightning"
 			],
-			"cr": "1/2",
+			"cr": "1/4",
 			"action": [
 				{
 					"name": "Head Bash",
@@ -501,15 +501,7 @@
 				}
 			],
 			"environment": [
-				"arctic",
-				"coastal",
-				"desert",
-				"forest",
-				"hill",
-				"mountain",
-				"swamp",
-				"underdark",
-				"urban"
+				"elder's recess, guiding lands"
 			],
 			"fluff": {
 				"images": [
@@ -526,6 +518,87 @@
 			"miscTags": [
 				"MW",
 				"RCH"
+			]
+		},
+		{
+			"name": "Girros",
+			"source": "Jagra",
+			"size": [
+				"M"
+			],
+			"type": {
+				"type": "beast",
+				"tags": [
+					"Fanged Wyvern"
+				]
+			},
+			"alignment": [
+				"N"
+			],
+			"ac": [
+				{
+					"ac": 13,
+					"from": [
+						"natural armor"
+					]
+				}
+			],
+			"hp": {
+				"formula": "3d8 + 3",
+				"average": 16
+			},
+			"speed": {
+				"walk": 30
+			},
+			"str": 12,
+			"dex": 12,
+			"con": 13,
+			"int": 3,
+			"wis": 6,
+			"cha": 6,
+			"passive": 8,
+			"vulnerable": [
+				"lightning"
+			],
+			"cr": "1/2",
+			"action": [
+				{
+					"name": "Bite",
+					"entries": [
+						"{@atk mw} {@hit 3} to hit, reach 5 ft., one target. {@h}4 ({@damage 1d6 + 1}) damage, plus 3 ({@damage 1d6}) poison damage."
+					]
+				},
+				{
+					"name": "Lunge",
+					"entries": [
+						"{@atk mw} {@hit 3} to hit, reach 5 ft., one target. {@h}4 ({@damage 1d6 + 1}) damage.",
+						"Upon a hit, target must make a {@dc 13} constitution saving throw. On a fail, they are {@condition paralyzed} until the start of the Girros' next turn."
+					]
+				}
+			],
+			"environment": [
+				"rotten vale, guiding lands"
+			],
+			"fluff": {
+				"entries": [
+					"Monsters that are known to attack in packs, using the deadly vapor of the Rotten Vale to their advantage. They are known for crippling targets with their paralyzing fangs."
+				],
+				"images": [
+					{
+						"type": "image",
+						"href": {
+							"type": "external",
+							"url": "https://cdn.discordapp.com/attachments/672984617485074471/1103525777108107284/girros.png"
+						}
+					}
+				]
+			},
+			"tokenUrl": "https://cdn.discordapp.com/attachments/672984617485074471/1103525776747405353/girros_token.png",
+			"damageTags": [
+				"I"
+			],
+			"miscTags": [
+				"MW"
 			]
 		},
 		{
@@ -612,7 +685,7 @@
 				}
 			],
 			"environment": [
-				"forest"
+				"ancient forest, guiding lands"
 			],
 			"fluff": {
 				"entries": [
@@ -702,7 +775,7 @@
 				}
 			],
 			"environment": [
-				"forest"
+				"ancient forest, guiding lands, shrine ruins, flooded forest (rise)"
 			],
 			"fluff": {
 				"entries": [
@@ -779,6 +852,14 @@
 				"lightning"
 			],
 			"cr": "1/8",
+			"trait": [
+				{
+					"name": "Aggressive Stillness",
+					"entries": [
+						"Any creatures that stand still while being noticed by a Kelbi for more than one minute will be attacked by the Kelbi."
+					]
+				}
+			],
 			"action": [
 				{
 					"name": "Hoof Strike",
@@ -787,25 +868,8 @@
 					]
 				}
 			],
-			"reaction": [
-				{
-					"name": "Aggressive Stillness",
-					"entries": [
-						"Any creatures that stand still while being noticed by a Kelbi for more than one minute will be attacked by the Kelbi."
-					]
-				}
-			],
 			"environment": [
-				"arctic",
-				"coastal",
-				"desert",
-				"forest",
-				"grassland",
-				"hill",
-				"mountain",
-				"swamp",
-				"underdark",
-				"underwater"
+				"forest and hills, old jungle, old swamp, snowy mountains, jungle, swamp, volcano, great forest, deserted island, flooded forest, sandy plains, volcano (3rd), misty peaks, ancestral steppe, sunken hollow, primal forest, volcanic hollow, heaven's mount, everwood, dunes, jurassic frontier, verdant hills, marshlands, wildspire waste, coral highlands, guiding lands, shrine ruins, flooded forest (rise), sandy plains (rise), citadel, jungle (mhrs), flower field, hermit forest, esther lake, firefly mountain stream, ancient tower, pondry hills, whistill forest, perennial pass"
 			],
 			"fluff": {
 				"images": [
@@ -890,7 +954,7 @@
 				}
 			],
 			"environment": [
-				"forest"
+				"ancient forest, wildspire waste, guiding lands, sandy plains (rise), citadel"
 			],
 			"fluff": {
 				"images": [
@@ -975,9 +1039,7 @@
 				}
 			],
 			"environment": [
-				"forest",
-				"grassland",
-				"hill"
+				"ancient forest, wildspire waste, guiding lands, sandy plains (rise), citadel"
 			],
 			"fluff": {
 				"images": [
@@ -1091,6 +1153,9 @@
 					]
 				}
 			],
+			"environment": [
+				"ancient forest, wildspire waste, guiding lands, shrine ruins, sandy plains (rise), flooded forest (rise), lava caverns, jungle (mhrs)"
+			],
 			"fluff": {
 				"images": [
 					{
@@ -1178,17 +1243,7 @@
 				}
 			],
 			"environment": [
-				"arctic",
-				"coastal",
-				"desert",
-				"forest",
-				"grassland",
-				"hill",
-				"mountain",
-				"swamp",
-				"underdark",
-				"underwater",
-				"urban"
+				"forest and hills, old jungle, old swamp, jungle, swamp, great forest, verdant hills, marshlands, ancient forest, wildspire waste, rotten vale, gorge, highland, flower field, painted waterfalls, dawnwind valley, hermit forest, kumbel wetlands, dark veil forest, esther lake, ancestral tomb, ghost rune volcanoes, firefly mountain stream"
 			],
 			"fluff": {
 				"images": [
@@ -1282,7 +1337,8 @@
 				}
 			],
 			"environment": [
-				"arctic"
+				"arctic",
+				"snowy mountains, tundra, frozen seaway, arctic ridge, hoarfrost reach, frost islands, clamorous ridge, yilufa snowy mountains, glacial valley, darj snowfields"
 			],
 			"fluff": {
 				"images": [
