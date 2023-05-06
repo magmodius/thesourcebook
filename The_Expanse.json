@@ -6,18 +6,140 @@
 				"json": "TheExpanse",
 				"abbreviation": "EXP",
 				"full": "The Expanse",
-				"url": "https://raw.githubusercontent.com/magmodius/thesourcebook/main/The_Expanse.json",
+				"url": "",
 				"color": "#598bc0",
 				"authors": [
-					"Backward"
+					"Packward"
 				],
 				"convertedBy": []
 			}
 		],
-		"dateAdded": 1683350840,
-		"dateLastModified": 1683350840
+		"dateAdded": 1683358511,
+		"dateLastModified": 1683358511
 	},
 	"monster": [
+		{
+			"name": "Cragbeard",
+			"shortName": true,
+			"group": [
+				"Pirates"
+			],
+			"isNpc": true,
+			"isNamedCreature": true,
+			"source": "TheExpanse",
+			"size": [
+				"M"
+			],
+			"type": {
+				"type": "humanoid",
+				"tags": [
+					"Human"
+				]
+			},
+			"alignment": [
+				"N"
+			],
+			"ac": [
+				8
+			],
+			"hp": {
+				"formula": "12d8 + 24",
+				"average": 78
+			},
+			"speed": {
+				"walk": 30,
+				"burrow": 30
+			},
+			"str": 13,
+			"dex": 7,
+			"con": 14,
+			"int": 16,
+			"wis": 18,
+			"cha": 12,
+			"save": {
+				"wis": "+7",
+				"int": "+6"
+			},
+			"skill": {
+				"insight": "+7",
+				"deception": "+4",
+				"arcana": "+9"
+			},
+			"passive": 14,
+			"cr": "6",
+			"spellcasting": [
+				{
+					"name": "Spellcasting",
+					"will": [
+						"{@spell barkskin}",
+						"{@spell earth tremor|XGE}",
+						"{@spell mage armor}",
+						"{@spell Maximilian's earthen grasp|XGE}",
+						"{@spell meld into stone}",
+						"{@spell stoneskin}"
+					],
+					"daily": {
+						"3": [
+							"{@spell erupting earth|XGE}",
+							"{@spell wall of stone}"
+						],
+						"1e": [
+							"{@spell bones of the earth|XGE}",
+							"{@spell flesh to stone}",
+							"{@spell investiture of stone|XGE}"
+						]
+					},
+					"spells": {
+						"0": {
+							"spells": [
+								"{@spell magic stone|XGE}",
+								"{@spell mold earth|XGE}",
+								"{@spell prestidigitation}"
+							]
+						}
+					},
+					"type": "spellcasting"
+				}
+			],
+			"trait": [
+				{
+					"name": "Iron Scent",
+					"entries": [
+						"Cragbeard can pinpoint, by scent, the location of ferrous metal within 300 feet of it."
+					]
+				}
+			],
+			"action": [
+				{
+					"name": "Fist of Iron",
+					"entries": [
+						"{@atk mw} {@hit 4} to hit, reach 5 ft., one target. {@h}4 ({@damage 1d6 + 1}) magical bludgeoning damage."
+					]
+				}
+			],
+			"reaction": [
+				{
+					"name": "Rise",
+					"entries": [
+						"Three times per day, when Cragbeard is about to get hit, he can instead rise himself higher on a pillar made of stone. Doing this, he raises his AC by 5 for the duration of the attacker's turn. The pillar shrinks back into the earth when the attacker's turn is over."
+					]
+				}
+			],
+			"dragonCastingColor": "bronze",
+			"tokenUrl": "https://cdn.discordapp.com/attachments/672984617485074471/1104179396153188382/Cragbeard.PNG",
+			"damageTags": [
+				"B"
+			],
+			"damageTagsSpell": [
+				"B"
+			],
+			"spellcastingTags": [
+				"O"
+			],
+			"miscTags": [
+				"MW"
+			]
+		},
 		{
 			"name": "Maya Redbeard",
 			"shortName": true,
@@ -130,6 +252,7 @@
 					]
 				}
 			],
+			"dragonCastingColor": "red",
 			"tokenUrl": "https://cdn.discordapp.com/attachments/672984617485074471/1104179502826934283/Maya.PNG",
 			"traitTags": [
 				"Aggressive",
