@@ -6,16 +6,16 @@
 				"json": "TheExpanse",
 				"abbreviation": "EXP",
 				"full": "The Expanse",
-				"url": "",
+				"url": "https://raw.githubusercontent.com/magmodius/thesourcebook/main/The_Expanse.json",
 				"color": "#598bc0",
 				"authors": [
-					"Packward"
+					"Backward"
 				],
 				"convertedBy": []
 			}
 		],
-		"dateAdded": 1683350755,
-		"dateLastModified": 1683350755
+		"dateAdded": 1683350840,
+		"dateLastModified": 1683350840
 	},
 	"monster": [
 		{
