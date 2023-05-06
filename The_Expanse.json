@@ -1,0 +1,158 @@
+{
+	"siteVersion": "1.180.0",
+	"_meta": {
+		"sources": [
+			{
+				"json": "TheExpanse",
+				"abbreviation": "EXP",
+				"full": "The Expanse",
+				"url": "",
+				"color": "#598bc0",
+				"authors": [
+					"Packward"
+				],
+				"convertedBy": []
+			}
+		],
+		"dateAdded": 1683350489,
+		"dateLastModified": 1683350489
+	},
+	"monster": [
+		{
+			"name": "Maya Redbeard",
+			"shortName": true,
+			"group": [
+				"Pirates"
+			],
+			"isNpc": true,
+			"isNamedCreature": true,
+			"source": "TheExpanse",
+			"size": [
+				"M"
+			],
+			"type": {
+				"type": "humanoid",
+				"tags": [
+					"human"
+				]
+			},
+			"alignment": [
+				"C",
+				"G"
+			],
+			"ac": [
+				{
+					"ac": 18,
+					"from": [
+						"{@item plate armor|phb}"
+					]
+				}
+			],
+			"hp": {
+				"formula": "17d8 + 51",
+				"average": 127
+			},
+			"speed": {
+				"walk": 35
+			},
+			"str": 19,
+			"dex": 14,
+			"con": 17,
+			"int": 9,
+			"wis": 8,
+			"cha": 14,
+			"save": {
+				"str": "+7",
+				"con": "+6"
+			},
+			"skill": {
+				"arcana": "+2",
+				"athletics": "+10",
+				"acrobatics": "+5",
+				"intimidation": "+8"
+			},
+			"passive": 9,
+			"conditionImmune": [
+				"frightened"
+			],
+			"cr": "8",
+			"spellcasting": [
+				{
+					"name": "Spellcasting",
+					"will": [
+						"{@spell ensnaring strike}",
+						"{@spell zephyr strike|XGE}"
+					],
+					"rest": {
+						"3": [
+							"{@spell flame strike}"
+						]
+					},
+					"type": "spellcasting"
+				}
+			],
+			"trait": [
+				{
+					"name": "Aggressive",
+					"entries": [
+						"As a bonus action, Maya Redbeard can move up to its speed toward a hostile creature that it can see."
+					]
+				},
+				{
+					"name": "Reckless",
+					"entries": [
+						"At the start of its turn, Maya Redbeard can gain advantage on all melee weapon attack rolls it makes during that turn, but attack rolls against it have advantage until the start of its next turn."
+					]
+				}
+			],
+			"actionHeader": [
+				"<strong>Multiattack.</strong> Maya makes two melee attacks, then uses Leadership."
+			],
+			"action": [
+				{
+					"name": "Quarterstaff",
+					"entries": [
+						"{@atk mw} {@hit +7} to hit, reach 5 ft., one target. {@h}7 ({@damage 1d6 + 4}) bludgeoning damage."
+					]
+				},
+				{
+					"name": "Leadership",
+					"entries": [
+						"For 1 minute, Maya Redbeard can utter a special command or warning whenever a nonhostile creature that it can see within 30 feet of it makes an attack roll or a saving throw. The creature can add a {@dice d4} to its roll provided it can hear and understand Maya Redbeard. A creature can benefit from only one Leadership die at a time. This effect ends if Maya Redbeard is {@condition incapacitated}."
+					]
+				}
+			],
+			"reaction": [
+				{
+					"name": "Parry",
+					"entries": [
+						"Maya Redbeard adds 3 to its AC against one melee attack that would hit it. To do so, Maya Redbeard must see the attacker and be wielding a melee weapon."
+					]
+				}
+			],
+			"tokenUrl": "https://cdn.discordapp.com/attachments/672984617485074471/1104179502826934283/Maya.PNG",
+			"traitTags": [
+				"Aggressive",
+				"Reckless"
+			],
+			"actionTags": [
+				"Parry"
+			],
+			"damageTags": [
+				"B"
+			],
+			"damageTagsSpell": [
+				"F",
+				"O",
+				"P",
+				"R"
+			],
+			"spellcastingTags": [
+				"O"
+			],
+			"miscTags": [
+				"MW"
+			]
+		}
+	]
+}
