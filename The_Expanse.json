@@ -14,8 +14,8 @@
 				"convertedBy": []
 			}
 		],
-		"dateAdded": 1683511327,
-		"dateLastModified": 1683511327
+		"dateAdded": 1683511832,
+		"dateLastModified": 1683511832
 	},
 	"monster": [
 		{
@@ -252,13 +252,17 @@
 		{
 			"name": "Lou Cocceroach",
 			"shortName": true,
-			"isNpc": true,
 			"isNamedCreature": true,
 			"source": "TheExpanse",
 			"size": [
 				"S"
 			],
-			"type": "beast",
+			"type": {
+				"type": "beast",
+				"tags": [
+					"Insect"
+				]
+			},
 			"alignment": [
 				"N"
 			],
