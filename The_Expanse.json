@@ -14,8 +14,8 @@
 				"convertedBy": []
 			}
 		],
-		"dateAdded": 1683508592,
-		"dateLastModified": 1683508592
+		"dateAdded": 1683511238,
+		"dateLastModified": 1683511238
 	},
 	"monster": [
 		{
@@ -145,6 +145,7 @@
 			"group": [
 				"Pirates"
 			],
+			"isNpc": true,
 			"source": "TheExpanse",
 			"size": [
 				"M"
@@ -246,6 +247,59 @@
 			],
 			"miscTags": [
 				"MW"
+			]
+		},
+		{
+			"name": "Lou Cocceroach",
+			"shortName": true,
+			"isNpc": true,
+			"isNamedCreature": true,
+			"source": "TheExpanse",
+			"size": [
+				"S"
+			],
+			"type": "beast",
+			"alignment": [
+				"N"
+			],
+			"ac": [
+				{
+					"ac": 18,
+					"from": [
+						"natural armor"
+					]
+				}
+			],
+			"hp": {
+				"formula": "32d8 + 416",
+				"average": 560
+			},
+			"speed": {
+				"walk": 20
+			},
+			"str": 8,
+			"dex": 8,
+			"con": 36,
+			"int": 12,
+			"wis": 9,
+			"cha": 7,
+			"save": {
+				"con": "+16"
+			},
+			"senses": [
+				"tremorsense 60 ft."
+			],
+			"passive": 9,
+			"immune": [
+				"fire"
+			],
+			"conditionImmune": [
+				"poisoned"
+			],
+			"cr": "5",
+			"tokenUrl": "https://cdn.discordapp.com/attachments/672984617485074471/1104949983460982864/Lou.PNG",
+			"senseTags": [
+				"T"
 			]
 		},
 		{
