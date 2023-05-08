@@ -14,8 +14,8 @@
 				"convertedBy": []
 			}
 		],
-		"dateAdded": 1683358511,
-		"dateLastModified": 1683358511
+		"dateAdded": 1683508592,
+		"dateLastModified": 1683508592
 	},
 	"monster": [
 		{
@@ -132,6 +132,114 @@
 			],
 			"damageTagsSpell": [
 				"B"
+			],
+			"spellcastingTags": [
+				"O"
+			],
+			"miscTags": [
+				"MW"
+			]
+		},
+		{
+			"name": "Greed",
+			"group": [
+				"Pirates"
+			],
+			"source": "TheExpanse",
+			"size": [
+				"M"
+			],
+			"type": {
+				"type": "humanoid",
+				"tags": [
+					"Fiend"
+				]
+			},
+			"alignment": [
+				"L",
+				"E"
+			],
+			"ac": [
+				18
+			],
+			"hp": {
+				"formula": "15d8 + 36",
+				"average": 103
+			},
+			"speed": {
+				"walk": 30,
+				"fly": 30
+			},
+			"str": 18,
+			"dex": 16,
+			"con": 17,
+			"int": 14,
+			"wis": 18,
+			"cha": 17,
+			"save": {
+				"str": "+8",
+				"wis": "+8"
+			},
+			"passive": 14,
+			"resist": [
+				"bludgeoning",
+				"piercing",
+				"slashing"
+			],
+			"immune": [
+				"acid"
+			],
+			"vulnerable": [
+				"force"
+			],
+			"conditionImmune": [
+				"charmed",
+				"exhaustion",
+				"frightened",
+				"petrified"
+			],
+			"cr": "9",
+			"spellcasting": [
+				{
+					"name": "Spellcasting",
+					"will": [
+						"{@spell incite greed|AI}"
+					],
+					"daily": {
+						"3": [
+							"{@spell bestow curse}"
+						]
+					},
+					"spells": {
+						"0": {
+							"spells": [
+								"{@spell blade ward}"
+							]
+						}
+					},
+					"type": "spellcasting"
+				}
+			],
+			"actionHeader": [
+				"Greed has a multiattack. He can make three attacks with his scimitar, or one scimitar attack and cast one spell."
+			],
+			"action": [
+				{
+					"name": "Scimitar",
+					"entries": [
+						"{@atk mw} {@hit 8} to hit, reach 5 ft., one target. {@h}11 ({@damage 2d6 + 4}) damage."
+					]
+				},
+				{
+					"name": "Midas Touch",
+					"entries": [
+						"Greed makes a melee spell attack. The target has to make a {@dc 15} constitution save, or else they turn to gold. This is reversable only through a Remove Curse or Dispel Magic of 3rd level or higher."
+					]
+				}
+			],
+			"tokenUrl": "https://cdn.discordapp.com/attachments/672984617485074471/1104179454378528938/greed.png",
+			"damageTagsSpell": [
+				"N"
 			],
 			"spellcastingTags": [
 				"O"
