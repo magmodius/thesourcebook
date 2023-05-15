@@ -1,5 +1,5 @@
 {
-	"siteVersion": "1.180.0",
+	"siteVersion": "1.181.1",
 	"_meta": {
 		"sources": [
 			{
@@ -14,8 +14,8 @@
 				"convertedBy": []
 			}
 		],
-		"dateAdded": 1683511832,
-		"dateLastModified": 1683511832
+		"dateAdded": 1684125745,
+		"dateLastModified": 1684125745
 	},
 	"monster": [
 		{
@@ -135,6 +135,171 @@
 			],
 			"spellcastingTags": [
 				"O"
+			],
+			"miscTags": [
+				"MW"
+			]
+		},
+		{
+			"name": "Despa",
+			"isNpc": true,
+			"isNamedCreature": true,
+			"source": "TheExpanse",
+			"size": [
+				"M"
+			],
+			"type": {
+				"type": "humanoid",
+				"tags": [
+					{
+						"tag": "Fucked Animal",
+						"prefix": "Beast,"
+					}
+				]
+			},
+			"alignment": [
+				"C"
+			],
+			"ac": [
+				18
+			],
+			"hp": {
+				"formula": "17d10 + 51",
+				"average": 144
+			},
+			"speed": {
+				"walk": 105
+			},
+			"str": 15,
+			"dex": 26,
+			"con": 17,
+			"int": 14,
+			"wis": 14,
+			"cha": 12,
+			"save": {
+				"dex": "+12"
+			},
+			"skill": {
+				"acrobatics": "+16"
+			},
+			"senses": [
+				"blindsight 150 ft."
+			],
+			"passive": 12,
+			"resist": [
+				"bludgeoning",
+				"piercing",
+				"slashing"
+			],
+			"immune": [
+				"thunder"
+			],
+			"conditionImmune": [
+				"exhaustion",
+				"incapacitated",
+				"restrained"
+			],
+			"languages": [
+				"Common",
+				"Dwarvish",
+				"Elvish"
+			],
+			"cr": "9",
+			"actionHeader": [
+				"Despa has multiattack. They can make three kick attacks on a turn, or two wind attacks."
+			],
+			"action": [
+				{
+					"name": "Kick",
+					"entries": [
+						"{@atk mw} {@hit 7} to hit, reach 5 ft., one target. {@h}16 ({@damage 4d6 + 2}) bludgeoning damage."
+					]
+				},
+				{
+					"name": "Wind Kick",
+					"entries": [
+						"{@atk mw} {@hit 7} to hit, reach 5 ft., one target. {@h}16 ({@damage 4d6 + 2}) magical slashing damage."
+					]
+				},
+				{
+					"name": "Charge",
+					"entries": [
+						"Despa charges at least 30 feet towards and opponent, annihilating them with pure force and speed. ",
+						"{@atk mw} {@hit 7} to hit, reach 5 ft., one target. {@h}37 ({@damage 10d6 + 2}) bludgeoning damage."
+					]
+				}
+			],
+			"bonus": [
+				{
+					"name": "Charge",
+					"entries": [
+						"Despa charges 30 feet towards a combatant, then does a melee attack."
+					]
+				},
+				{
+					"name": "Overwhelming Speed",
+					"entries": [
+						"Despa's body is overcome by speed blurs and motion lines, causing any ranged attacks against him to be made with disadvantage until his next turn."
+					]
+				},
+				{
+					"name": "Feint",
+					"entries": [
+						"Despa moves in front of and behind an opponent quickly, causing them to have to choose which direction the next attack will come from. This causes Despa's next attack to have advantage against them."
+					]
+				}
+			],
+			"reaction": [
+				{
+					"name": "Evasion",
+					"entries": [
+						"If Despa is subjected to an effect that allows it to make a Dexterity saving throw to take only half damage, it instead takes no damage if it succeeds on the saving throw, and only half damage if it fails. It can't use this trait if it's {@condition incapacitated}."
+					]
+				},
+				{
+					"name": "Parry",
+					"entries": [
+						"If an opponent attempts to attack Despa with an attack of opportunity, Despa makes an attack against them instead."
+					]
+				}
+			],
+			"legendaryHeader": [
+				"Despa can do one legendary action per round."
+			],
+			"legendary": [
+				{
+					"name": "Attack",
+					"entries": [
+						"Despa makes an attack towards a creature in his range."
+					]
+				},
+				{
+					"name": "Dodge",
+					"entries": [
+						"Despa causes an attack against him to have disadvantage."
+					]
+				},
+				{
+					"name": "Legendary Resistance",
+					"entries": [
+						"If Despa fails a saving throw, he can choose to succeed it instead."
+					]
+				}
+			],
+			"tokenUrl": "https://cdn.discordapp.com/attachments/672984617485074471/1107527825583505408/DYSPO.PNG",
+			"senseTags": [
+				"B"
+			],
+			"actionTags": [
+				"Parry"
+			],
+			"languageTags": [
+				"C",
+				"D",
+				"E"
+			],
+			"damageTags": [
+				"B"
 			],
 			"miscTags": [
 				"MW"
